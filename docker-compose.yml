@@ -31,6 +31,7 @@ services:
       - PGUSER=postgres
       - PGHOST=postgres
       - PGDATABASE=postgres
+      # used PGDATABASE=fibvalues in AWS RDS postgres instance 
       - PGPASSWORD=postgres_password
       - PGPORT=5432
   client:
